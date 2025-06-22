@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuParam"
+        android:title="Paramètres"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_param"/>
+    <item
+        android:id="@+id/menuDeconnexion"
+        android:title="Déconnexion"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_logout"/>
+</menu>

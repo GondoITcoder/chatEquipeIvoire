@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_chat_left"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="6dp">
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Salut big boss"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/tv_heure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="21:04"
+        android:layout_gravity="right"
+        android:textColor="@color/gray"
+        android:textSize="12sp"/>
+
+</LinearLayout>
