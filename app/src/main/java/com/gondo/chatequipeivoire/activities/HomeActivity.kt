@@ -26,7 +26,9 @@ class HomeActivity : AppCompatActivity() {
         fabChat=findViewById(R.id.fab_chat)
 
         fabChat.setOnClickListener{
-
+            Intent(this,RechercheUserActivity::class.java).also {
+                startActivity(it)
+            }
         }
 
         val amisList= mutableListOf<AmisModel>(

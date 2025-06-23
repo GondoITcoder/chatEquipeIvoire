@@ -14,10 +14,16 @@
         android:theme="@style/Theme.ChatEquipeIvoire"
         tools:targetApi="31">
         <activity
+            android:name=".activities.RechercheUserActivity"
+            android:exported="false"
+            android:label="Rechercher"
+            android:parentActivityName=".activities.HomeActivity"
+            android:theme="@style/Theme.ChatEquipeIvoire.NoActionBar" />
+        <activity
             android:name=".activities.ChatActivity"
             android:exported="false"
             android:parentActivityName=".activities.HomeActivity"
-            android:theme="@style/Theme.ChatEquipeIvoire.NoActionBar"/>
+            android:theme="@style/Theme.ChatEquipeIvoire.NoActionBar" />
         <activity
             android:name=".activities.RegisterActivity"
             android:exported="false"
@@ -39,6 +45,7 @@
         <activity
             android:name=".activities.HomeActivity"
             android:exported="false"
+            android:label="Mes contacts"
             android:theme="@style/Theme.ChatEquipeIvoire.NoActionBar" />
     </application>
 

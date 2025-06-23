@@ -1,5 +1,6 @@
 package com.gondo.chatequipeivoire.adapters
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
@@ -17,6 +18,7 @@ import java.util.Locale
 class AmisAdapter: RecyclerView.Adapter<AmisAdapter.ViewHolder>() {
 
     var items:MutableList<AmisModel> = mutableListOf()
+        @SuppressLint("NotifyDataSetChanged")
         set(value) {
             field=value
             notifyDataSetChanged()
